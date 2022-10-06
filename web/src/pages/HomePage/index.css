@@ -1,14 +1,11 @@
-.inline {
-  display: inline-block;
-}
 .typewriter {
   width: 0; /* ensures constent is not revealed until animation */
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: 0.15em solid orange; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: 0.15em; /* Adjust as needed */
-  animation: typing 2s steps(20, end) 2s forwards,
+  /* margin: 0 auto; /1* Gives that scrolling effect as the typing happens *1/ */
+  letter-spacing: 0.1em; /* Adjust as needed */
+  animation: typing 1.25s steps(20, end) 2s forwards,
     blink-caret 0.75s step-end 0s infinite;
 }
 
